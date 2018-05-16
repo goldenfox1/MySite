@@ -1,0 +1,92 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="submit" form="form-ic_image_optimizer" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+        <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <button type="button" class="btn btn-primary btn-lg" data-href="{{ clear }}" id="btn_clear_cache" data-toggle="tooltip" title="{{ text_help_clear }}">{{ button_clear }}</button>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_edit }}</h3>
+      </div>
+      <div class="panel-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-ic_image_optimizer" class="form-horizontal">
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-jpeg-quality"><span data-toggle="tooltip" title="{{ text_help_jpeg }}">{{ entry_jpeg_quality }}</span></label>
+            <div class="col-sm-10">
+              <input type="text" name="ic_image_optimizer_quality" id="input-jpeg-quality" class="form-control" placeholder="{{ entry_jpeg_quality }}" value="{% if ic_image_optimizer_quality %}{{ ic_image_optimizer_quality }}{% else %}{{ default_quality }}{% endif %}" />
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-cache_dir">{{ entry_cache_dir }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="ic_image_optimizer_cache_dir" id="input-cache_dir" class="form-control" placeholder="{{ entry_cache_dir }}" value="{% if ic_image_optimizer_cache_dir %}{{ ic_image_optimizer_cache_dir }}{% else %}{{ default_cache_dir }}{% endif %}" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+            <div class="col-sm-10">
+              <select name="ic_image_optimizer_status" id="input-status" class="form-control">
+                {% if ic_image_optimizer_status %}
+                <option value="1" selected="selected">{{ text_enabled }}</option>
+                <option value="0">{{ text_disabled }}</option>
+                {% else %}
+                <option value="1">{{ text_enabled }}</option>
+                <option value="0" selected="selected">{{ text_disabled }}</option>
+                {% endif %}
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script><!--
+$(document).ready(function(){ 
+  $('#btn_clear_cache').on('click', function(){
+  	var url = $('#btn_clear_cache').data('href');
+  	
+  	$.ajax({
+  		url : url,
+  		beforeSend : function(){
+  			$('.alert').remove();
+  			$('#btn-clear-cache').after('<i class="fa fa-spin fa-circle-o-notch"></i>');
+  		},
+  		complete : function(){
+  			$('#btn-clear-cache').parent().find('.fa-spin').remove();
+  		},
+  		success : function(json){
+  			if(json.success){
+  				$('.breadcrumb').after('<div class="alert alert-success">{{ text_clear_success }}</div>');
+  			}
+  		},
+  		error : function(){
+  			alert('error');
+  		}
+  	});
+  	
+  });
+});
+//--></script>
+{{ footer }}

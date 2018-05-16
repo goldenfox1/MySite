@@ -1,0 +1,19 @@
+<footer id="footer">{{ text_footer }}<br />{{ text_version }}</footer></div>
+
+<style>.buttons_fixed {position:fixed;right:0px;background:#fff;z-index:999;border: 1px solid #f2f2f2;padding:10px 20px;border-radius:3px;top:0px;}</style>
+<script>
+$(function() {
+ var header_height = $('header').outerHeight(true),
+      buttons = $('.page-header .pull-right');
+               
+    $(document).on("scroll", function() {
+        var scroll = $(document).scrollTop();
+        if (scroll > header_height)
+            buttons.addClass('buttons_fixed');
+            else
+            buttons.removeClass('buttons_fixed');
+    });
+});
+</script>
+		    
+</body></html>

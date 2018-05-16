@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="{{ direction }}" lang="{{ lang }}" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="{{ direction }}" lang="{{ lang }}" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="{{ direction }}" lang="{{ lang }}">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{ title }}</title>
+<base href="{{ base }}" />
+{% if description %}
+<meta name="description" content="{{ description }}" />
+{% endif %}
+{% if keywords %}
+<meta name="keywords" content= "{{ keywords }}" />
+{% endif %}
+<link href="catalog/view/theme/basecart/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- START basecart module -->
+{% if not theme %}
+  {% set theme = 'default' %}
+{% endif %}
+<link href="catalog/view/theme/basecart/css/{{ theme }}.css" rel="stylesheet">
+<!-- END basecart module -->
+
+<link href="catalog/view/theme/basecart/css/main.css" rel="stylesheet">
+<script src="catalog/view/theme/basecart/js/jquery.min.js"></script>
+<script src="catalog/view/theme/basecart/js/bootstrap.min.js"></script>
+<script src="catalog/view/theme/basecart/js/common.js"></script>
+{% for link in links %}
+<link href="{{ link.href }}" rel="{{ link.rel }}">
+{% endfor %}
+{% for style in styles %}
+<link href="{{ style.href }}" rel="{{ style.rel }}" media="{{ style.media }}">
+{% endfor %}
+{% for script in scripts %}
+<script src="{{ script }}"></script>
+{% endfor %}
+{% for analytic in analytics %}
+{{ analytic }}
+{% endfor %}
+
+         {% if fbpixel_status %}
+            <!-- Facebook Pixel Code -->
+            <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '{{ fbpixel_id }}');
+            fbq('track', "PageView");
+            {{ pixel }}
+
+            </script>
+            <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id={{ fbpixel_id }}&ev=PageView&noscript=1"
+            /></noscript>
+          <!-- End Facebook Pixel Code -->
+        {% endif %} 
+      
+
+				<style>
+				.tag {
+    position: absolute;
+    margin:5px 20px 0px 0px;
+    right:0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 55px;
+    height: 55px;
+    font-variant: small-caps;
+    z-index: 100;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    transition :.6s;
+}
+.tag:hover{
+	transform:rotate(360deg);
+}
+.tag.hot {
+    background: #ff1353;
+}
+.tag.new {
+        background: #18de0d;
+        color: #000;
+}
+.tag.sale {
+    background: #fdd922;
+    color: #333;
+}
+</style>
+            
+</head>
+<body>
+<header>
+{% if not nav %}
+  {% set nav = 'navbar-default' %}
+{% endif %}
+<nav class="navbar {{ nav }}">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {% if logo %}
+      <a class="navbar-brand" href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-responsive" /></a>
+      {% else %}
+      <a class="navbar-brand" href="{{ home }}">{{ name }}</a>
+      {% endif %}
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      {{ menu }}
+      <ul class="nav navbar-nav navbar-right">
+        <li id="hiddenM"><a class="btn btn-link" role="button" data-toggle="collapse" href="#hiddenMenu" aria-expanded="false" aria-controls="hiddenMenu"><i class="fa fa-ellipsis-h"></i></a></li>
+        {{ cart }}
+        <li class="dropdown"><a href="{{ account }}" title="{{ text_account }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            {% if logged %}
+            <li><a href="{{ account }}">{{ text_account }}</a></li>
+            <li><a href="{{ order }}">{{ text_order }}</a></li>
+            <li><a href="{{ transaction }}">{{ text_transaction }}</a></li>
+            <li><a href="{{ download }}">{{ text_download }}</a></li>
+            <li><a href="{{ logout }}">{{ text_logout }}</a></li>
+            {% else %}
+            <li><a href="{{ register }}">{{ text_register }}</a></li>
+            <li><a href="{{ login }}">{{ text_login }}</a></li>
+            {% endif %}
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="collapse" id="hiddenMenu">
+      <div class="row">
+        <div class="col-sm-4">
+          {{ currency }}
+        </div>
+        <div class="col-sm-4">
+          {{ language }}
+        </div>
+          <div class="col-sm-4">
+          {{ search }}
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>

@@ -1,0 +1,187 @@
+2018-03-31 10:18:44 - PHP Warning:  mysqli::mysqli(): (HY000/2002): ��������� �� �����������, �.�. ������ ������� ������ ������ �� ���������.
+ in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 7
+2018-03-31 10:18:44 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 10
+2018-03-31 10:18:44 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 10
+2018-03-31 10:19:24 - PHP Warning:  mysqli::mysqli(): (HY000/2002): ��������� �� �����������, �.�. ������ ������� ������ ������ �� ���������.
+ in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 7
+2018-03-31 10:19:24 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 10
+2018-03-31 10:19:24 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 10
+2018-03-31 13:51:43 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-03-31 13:51:44 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-03-31 13:51:46 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-03-31 13:51:46 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-03-31 13:51:49 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-03-31 13:51:49 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-03-31 14:12:46 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.local\admin\controller\extension\module\reviewstab.php on line 16
+2018-03-31 14:12:46 - PHP Notice:  Undefined variable: url in C:\OSPanel\domains\oc.local\admin\controller\extension\module\reviewstab.php on line 55
+2018-03-31 14:12:46 - PHP Notice:  Undefined variable: tconfig_limit_admin in C:\OSPanel\domains\oc.local\admin\controller\extension\module\reviewstab.php on line 59
+2018-03-31 14:12:48 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.local\admin\controller\extension\module\reviewstab.php on line 16
+2018-03-31 14:12:48 - PHP Notice:  Undefined variable: url in C:\OSPanel\domains\oc.local\admin\controller\extension\module\reviewstab.php on line 55
+2018-03-31 14:12:48 - PHP Notice:  Undefined variable: tconfig_limit_admin in C:\OSPanel\domains\oc.local\admin\controller\extension\module\reviewstab.php on line 59
+2018-03-31 16:27:28 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-03-31 16:27:29 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-03-31 16:35:11 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:35:53 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:37:55 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:39:04 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:40:07 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:40:23 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:41:04 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:41:26 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:41:26 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:41:26 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:41:26 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:41:26 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:41:26 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:41:26 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:41:26 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:41:26 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:43:00 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:43:15 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:15 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:15 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:15 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:15 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:15 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:15 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:15 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:15 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:43:35 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:43:54 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:54 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:54 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:54 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:54 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:54 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:54 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1256
+2018-03-31 16:43:54 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1263
+2018-03-31 16:43:54 - PHP Notice:  Undefined variable: user_token in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1271
+2018-03-31 16:47:44 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:47:44 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:47:44 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:47:44 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:52:24 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:52:24 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:52:24 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-03-31 16:52:24 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\storage\modification\admin\controller\catalog\product.php on line 1257
+2018-04-01 13:23:49 - PHP Notice:  Undefined variable: url in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 210
+2018-04-01 13:23:49 - PHP Notice:  Undefined variable: url in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 211
+2018-04-07 13:24:16 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin/view/template): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:24:16 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin/view): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:24:17 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:24:17 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-04-07 13:27:35 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin/view): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:27:35 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:27:36 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-04-07 13:27:38 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin/view): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:27:39 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/admin): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-04-07 13:27:40 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-04-07 15:47:41 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:47:41 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:47:44 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:47:44 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:52:25 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:52:25 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:52:41 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:52:41 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:53:32 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:53:32 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:53:36 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:53:36 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:53:44 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:53:44 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:53:49 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:53:49 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:53:59 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:53:59 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:54:11 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:54:11 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:54:32 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:54:32 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 15:56:04 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 15:56:04 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:19:34 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:19:34 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:19:44 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:19:44 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:21:09 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:21:09 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:21:19 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:21:19 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:21:56 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:21:56 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:25:47 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:25:47 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:29:05 - PHP Notice:  Undefined index: rewiev-author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 16:29:05 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 16:51:31 - PHP Notice:  Undefined index: rewiev-text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 17:35:48 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:35:48 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:35:48 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:35:48 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:35:48 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:36:35 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:36:35 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:36:35 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:36:35 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:36:35 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:38:46 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:38:46 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:38:46 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:38:46 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:38:46 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:40:15 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:40:15 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:40:15 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:40:15 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:40:15 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:21 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:21 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:21 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:21 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:21 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:32 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:32 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:32 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:32 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:32 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:42 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:42 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:42 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:42 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:49:42 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:51:50 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:51:50 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:51:50 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:51:50 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:51:50 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:52:56 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:52:56 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:52:56 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:52:56 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:52:56 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:58:19 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:58:19 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:58:19 - PHP Notice:  Undefined index: rating in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:58:19 - PHP Notice:  Undefined index: status in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 17:58:19 - PHP Notice:  Undefined index: date_added in C:\OSPanel\domains\storage\modification\admin\model\catalog\review.php on line 4
+2018-04-07 18:17:28 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 18:17:28 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 18:18:00 - PHP Notice:  Undefined index: author in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 352
+2018-04-07 18:18:00 - PHP Notice:  Undefined index: text in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 356
+2018-04-07 22:04:06 - PHP Notice:  Undefined property: Loader::$view in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 30
+2018-04-07 22:04:06 - PHP Notice:  Undefined property: Response::$setOutput in C:\OSPanel\domains\oc.local\admin\controller\catalog\review_tab.php on line 30
+2018-04-07 22:07:49 - PHP Notice:  Undefined property: Template::$render in C:\OSPanel\domains\storage\modification\system\engine\loader.php on line 122
+2018-04-07 22:07:49 - PHP Notice:  Undefined property: Template::$render in C:\OSPanel\domains\storage\modification\system\engine\loader.php on line 122
+2018-04-07 22:08:27 - PHP Warning:  Error while sending QUERY packet. PID=5964 in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 18
+2018-04-07 22:11:39 - PHP Notice:  Undefined property: Registry::$get in C:\OSPanel\domains\storage\modification\system\engine\loader.php on line 113
+2018-04-07 22:22:08 - PHP Warning:  Error while sending QUERY packet. PID=5964 in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 18
+2018-04-07 22:36:12 - PHP Warning:  mysqli::query(): MySQL server has gone away in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 18
+2018-04-07 22:36:12 - PHP Warning:  mysqli::query(): Error reading result set's header in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 18
+2018-04-11 18:14:36 - PHP Notice:  Array to string conversion in C:\OSPanel\domains\storage\cache\95\95f7b8cee52a8938e01f12cff94b1afb4dea2a1a4e09193ba2ee76cd9418f4ab.php on line 1035
+2018-05-07 15:33:08 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/system/library): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-05-07 15:33:08 - PHP Warning:  rmdir(C:/OSPanel/domains/storage/modification/system): Directory not empty in C:\OSPanel\domains\storage\modification\admin\controller\marketplace\modification.php on line 119
+2018-05-07 15:33:15 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\oc.local\admin\controller\startup\error.php:34) in C:\OSPanel\domains\oc.local\system\library\response.php on line 36
+2018-05-16 16:00:46 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'GoldenFox'@'localhost' (using password: YES) in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 7
+2018-05-16 16:00:46 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 10
+2018-05-16 16:00:46 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\OSPanel\domains\oc.local\system\library\db\mysqli.php on line 10
